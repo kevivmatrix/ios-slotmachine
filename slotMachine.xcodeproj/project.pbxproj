@@ -13,6 +13,7 @@
 		E2EFDA2E1A245ADB00422FDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2EFDA2D1A245ADB00422FDE /* Images.xcassets */; };
 		E2EFDA311A245ADB00422FDE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2EFDA2F1A245ADB00422FDE /* LaunchScreen.xib */; };
 		E2EFDA3D1A245ADB00422FDE /* slotMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFDA3C1A245ADB00422FDE /* slotMachineTests.swift */; };
+		E2EFDA471A24CEA300422FDE /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFDA461A24CEA300422FDE /* Slot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E2EFDA361A245ADB00422FDE /* slotMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slotMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EFDA3B1A245ADB00422FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2EFDA3C1A245ADB00422FDE /* slotMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slotMachineTests.swift; sourceTree = "<group>"; };
+		E2EFDA461A24CEA300422FDE /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				E2EFDA261A245ADB00422FDE /* AppDelegate.swift */,
 				E2EFDA281A245ADB00422FDE /* ViewController.swift */,
+				E2EFDA461A24CEA300422FDE /* Slot.swift */,
 				E2EFDA2A1A245ADB00422FDE /* Main.storyboard */,
 				E2EFDA2D1A245ADB00422FDE /* Images.xcassets */,
 				E2EFDA2F1A245ADB00422FDE /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2EFDA291A245ADB00422FDE /* ViewController.swift in Sources */,
+				E2EFDA471A24CEA300422FDE /* Slot.swift in Sources */,
 				E2EFDA271A245ADB00422FDE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

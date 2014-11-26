@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2B069091A258C790058312B /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B069081A258C790058312B /* Factory.swift */; };
 		E2EFDA271A245ADB00422FDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFDA261A245ADB00422FDE /* AppDelegate.swift */; };
 		E2EFDA291A245ADB00422FDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EFDA281A245ADB00422FDE /* ViewController.swift */; };
 		E2EFDA2C1A245ADB00422FDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2EFDA2A1A245ADB00422FDE /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E2B069081A258C790058312B /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		E2EFDA211A245ADB00422FDE /* slotMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slotMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EFDA251A245ADB00422FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2EFDA261A245ADB00422FDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				E2EFDA261A245ADB00422FDE /* AppDelegate.swift */,
 				E2EFDA281A245ADB00422FDE /* ViewController.swift */,
+				E2B069081A258C790058312B /* Factory.swift */,
 				E2EFDA461A24CEA300422FDE /* Slot.swift */,
 				E2EFDA2A1A245ADB00422FDE /* Main.storyboard */,
 				E2EFDA2D1A245ADB00422FDE /* Images.xcassets */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B069091A258C790058312B /* Factory.swift in Sources */,
 				E2EFDA291A245ADB00422FDE /* ViewController.swift in Sources */,
 				E2EFDA471A24CEA300422FDE /* Slot.swift in Sources */,
 				E2EFDA271A245ADB00422FDE /* AppDelegate.swift in Sources */,
@@ -411,6 +415,7 @@
 				E2EFDA421A245ADB00422FDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2EFDA431A245ADB00422FDE /* Build configuration list for PBXNativeTarget "slotMachineTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				E2EFDA451A245ADB00422FDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
